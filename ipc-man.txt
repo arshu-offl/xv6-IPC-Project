@@ -1,0 +1,10 @@
+----------  IPC MANUAL DOCUMENTATION ------------
+List of Commands : 
+
+SHARED MEMORY : 
+
+ipc shmget [key-id] 					 -----> Create a Shared Memory Segment with key = key-id
+ipc shmdt [key-id]  					 -----> Delete the Created Shared memory segment
+ipc shmat [key-id] [mode (RD/WR)] -----> Attach to the Shared Memory segment and Read or 														  Write with respect to the given mode specs
+
+--------------------------------------------------
