@@ -2,6 +2,7 @@
 #include "user.h"
 #include "stat.h"
 #include "fcntl.h"
+#include "ipc.h"
 
 int itr = 0; // Key value iterator
 
